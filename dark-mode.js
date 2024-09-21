@@ -1,6 +1,7 @@
-const themeButton = document.getElementById("theme-button");
-
-themeButton.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-  console.log("clicado");
+document.getElementById('theme-button').addEventListener('click', function() {
+  
+  document.body.classList.toggle('dark-mode');
+  document.querySelectorAll('*').forEach(function(element) {
+    element.classList.toggle('dark-mode');
+  });
 });

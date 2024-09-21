@@ -55,6 +55,11 @@ a {
   color: #444;
 }
 
+.text .highlight {
+  color: #ff6ba8;
+  font-weight: bold;
+}
+
 .my-story {
   margin-top: 20px;
   padding: 10px 20px;
@@ -115,10 +120,17 @@ footer {
   cursor: pointer;
 }
 
+/* Dark Mode */
+
 .dark-mode {
   background-color: #121212;
   color: #e0e0e0;
 }
+
+.dark-mode .theme-button {
+  color: #ff6ba8;
+}
+
 
 .dark-mode header {
   background-color: #333;
@@ -127,4 +139,12 @@ footer {
 .dark-mode button {
   background-color: #444;
   color: white;
+}
+
+.dark-mode p{
+  color: #e0e0e0;
+}
+
+.dark-mode .highlight {
+  color: #ff6ba8;
 }
